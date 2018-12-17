@@ -6,7 +6,8 @@ public class Movie {
     int _priceCode;
 
     public Movie(String title, int priceCode) {
-
+        _title = title;
+        _priceCode = priceCode;
     }
 
     public String getTitle() {
