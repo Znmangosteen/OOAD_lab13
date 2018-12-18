@@ -15,5 +15,4 @@ public class RegularPrice extends Price {
         return result;
     }
 
-
 }

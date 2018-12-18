@@ -12,4 +12,15 @@ public class NewReleasePrice extends Price {
 
         return result;
     }
+
+    @Override
+    int getFrequentRenterPoints(int daysRented) {
+        int result = 0;
+        //determine amounts for each line
+        // add frequent renter points
+        result++;
+        // add bonus for a two day new release rental
+        if (daysRented > 1) result++;
+        return result;
+    }
 }
